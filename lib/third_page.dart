@@ -17,7 +17,7 @@ class ThirdPage extends StatefulWidget {
       required this.userCount});
 
   @override
-  _ThirdPageState createState() => _ThirdPageState();
+  State<ThirdPage> createState() => _ThirdPageState();
 }
 
 class _ThirdPageState extends State<ThirdPage> {
